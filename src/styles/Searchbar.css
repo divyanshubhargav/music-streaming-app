@@ -1,0 +1,43 @@
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff14;
+  border-radius: 8px;
+}
+
+.searchBar input {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.searchBar input::placeholder {
+  color: #fff;
+}
+
+.searchButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.searchButton:focus {
+  outline: none;
+}
+
+.searchButton img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1) brightness(100%);
+}
